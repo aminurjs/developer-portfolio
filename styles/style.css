@@ -92,6 +92,16 @@ nav ul li a{
     margin-bottom: 0;
     padding-bottom: 0;
 }
+.scnd_btn{
+    background-color: transparent;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
 
 /* About area css  */
 
@@ -118,6 +128,7 @@ nav ul li a{
     color:#757575;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 .about_info{
     display: flex;
@@ -184,4 +195,90 @@ nav ul li a{
     justify-content: space-between;
     text-align: left;
     gap: 70px;
+}
+.resume_column_title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume_ex h4{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.resume_ex h5{
+    color:#757575;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.resume_ex p{
+    color:#757575;
+    font-size: 16px;
+    margin: 0;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+/* Footer area css */
+footer{
+    background: #FFF8F3;
+}
+.footer{
+    display: flex;
+    align-items: start;
+    margin: 130px auto;
+    width: 1200px;
+    max-width: 100%;
+    gap: 100px;
+}
+.footer .social_area{
+    width: 50%;
+}
+.footer .social_area ul{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+    padding: 0;
+}
+.footer .social_area ul li{
+    list-style: none;
+    margin-left: 0;
+}
+.footer .form_area{
+    width: 50%;
+}
+.footer_heading{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer_description{ 
+    color: #474747;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.form_area .form_field{
+    display: block;
+    width: 100%;
+    background-color: #FFF;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+}
+.form_area .form_field::placeholder{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
 }
