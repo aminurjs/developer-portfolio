@@ -1,0 +1,55 @@
+/* Common Css Styles */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.primary_btn{
+    padding: 15px 35px;
+    border: 0;
+    background-color: #FD6E0A;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+/* header styles */
+header{
+    background-color: #FFF8F3;
+}
+
+/* Nav rilated styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+nav h2{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav h2 span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+/* Banner related styles */
+
