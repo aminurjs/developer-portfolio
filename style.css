@@ -1,0 +1,370 @@
+
+/* Common styles here */
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.primary_btn{
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+.primary_btn:hover{
+    background: #cf4361;
+    cursor: pointer;
+}
+
+/* header area  styles here*/
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px 0;
+    gap: 100px;
+}
+
+.banner_content h1{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner_content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner img{
+    max-width: 600px;
+}
+
+/* featured area styles here */
+.featured{
+    margin: 150px 200px 120px;
+}
+.section_title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section_desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.featured_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    gap: 20px;
+}
+.featured_img{
+    width: 450px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+}   
+.img_1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.img_2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.img_3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured_items p{
+    margin-top: 25px;
+    text-align: center;
+}
+.featured_items p a{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+/* support area styles here */
+
+.support{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+    padding: 60px 150px;      
+}
+.support_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+}
+.support_items img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.support_items p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.discount{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px;
+    gap: 100px;
+    margin: 120px 0;
+}
+.discount .dis_cont{
+    text-align: center;
+    width: 66%;
+}
+
+.discount .dis_cont h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.discount .dis_cont h2 span{
+    color: #E55473;
+}
+.discount .dis_cont p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.discount img{
+    width: 34%;
+}
+
+/* Best Selling area styles here */
+
+.best_sells{
+    margin: 0 200px;    
+}
+.bs_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+}
+.bs_items img{
+    width: 300px;
+    height: 320px;
+}
+.bs_items p{
+    margin-top: 20px;
+    text-align: center;
+}
+.bs_items p a{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+/* Inastagram area styles here */
+
+.insta{
+    margin: 120px 200px;
+}
+.insta_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.insta_imgs img{
+    max-width: 20%;
+}
+
+/* Subscription area styles here */
+
+.subscribe{
+    margin: 120px 200px;
+    padding: 120px 280px;
+    border-radius: 8px;
+    background: url('../images/subscribe.jpg'), lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+.subscribe p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.subscribe form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.subscribe form input[type="email"]{
+    border-radius: 8px;
+    background: #FFF;
+    color: #272727;
+    font-size: 16px;
+    padding: 16px;
+    border: 0;
+    width: 80%;
+}
+.subscribe form input[type="email"]::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* Footer area styles here */
+
+.footer_area{
+    background: #111010;
+    padding: 120px 0;
+}
+.footer_area h2{
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer_area h2 span{
+    color: #ffffff;
+}
+.footer_area p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.footer_area p.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Responsive css  */
+
+@media screen and (max-width:576px) {
+    .banner {
+        padding: 50px 10px 80px;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .banner img {
+        max-width: 350px;
+    }
+    .banner_content h1 {
+        font-size: 50px;
+    }
+    .featured {
+        margin: 60px 10px;
+    }
+    .featured_items {
+        flex-direction: column;
+    }
+    .featured_img {
+        width: 350px;
+        height: 450px;
+    }
+    .featured_img img {
+        height: 80%;
+    }
+    .support {
+        margin: 0 20px;
+        padding: 20px;
+    }
+    .support_items {
+        gap: 50px;
+        flex-direction: column;
+    }
+    .discount {
+        padding: 50px 10px 80px;
+        gap: 50px;
+        margin: 80px 0;
+        flex-direction: column-reverse;
+    }
+    .discount .dis_cont {
+        width: 100%;
+    }
+    .discount .dis_cont h2 {
+        font-size: 30px;
+    }
+    .discount img {
+        width: 60%;
+    }
+    .best_sells {
+        margin: 0;
+        padding: 10px;
+    }
+    .bs_items {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .insta {
+        margin: 80px 10px;
+    }
+    .insta_imgs {
+        flex-direction: column;
+    }
+    .insta_imgs img {
+        max-width: 80%;
+    }
+    .subscribe {
+        margin: 50px 10px;
+        padding: 50px 15px;
+    }
+    .subscribe h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .subscribe p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .subscribe form {
+        flex-direction: column;
+    }
+    .subscribe form .primary_btn {
+        width: 88%;
+        padding: 12px 40px;
+    }
+    .footer_area {
+        padding: 80px 0;
+    }
+}
